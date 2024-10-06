@@ -30,7 +30,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/React-Project"> {/* Add basename here */}
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
