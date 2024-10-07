@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Signup from './components/Signup';
-import Login from './components/Login';
-import Profile from './components/Profile';
-import { auth } from './firebase';
+import Signup from './components/Signup.js';
+import Login from './components/Login.js';
+import Profile from './components/Profile.js';
+import { auth } from './firebase.js';
 import { onAuthStateChanged } from 'firebase/auth';
 import './App.css';
 
